@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+    <header>
+        <h1>Favorite Foods</h1>
+        <nav>
+            <a href="#overview">Overview</a>
+            <a href="#survey">Survey</a>
+            <a href="#bestestFood">The Bestest Food</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div id="overview" style="width: 50%;">
+        <h2>Overview</h2>
+        <p>There are many different kinds of foods. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In voluptates amet dolorum voluptatibus natus, totam illum delectus repellendus nobis facere nemo architecto quod tempore autem recusandae perferendis, odio reiciendis maxime!</p>
+    </div>
+
+    <hr>
+
+    <div id="survey">
+        <form>
+            <legend><h2>What's your favorite food?</h2></legend>
+            <p>
+                <input type="radio"
+                    name="favFood"
+                    id="cheese pizza"
+                    value="cheese pizza">
+                <label for="cheese pizza">Cheese Pizza</label>
+            </p>
+            <p>
+                <input type="radio"
+                    name="favFood"
+                    id="meat-lovers pizza"
+                    value="meat-lovers pizza">
+                <label for="meat-lovers pizza">Meat-Lovers Pizza</label>
+            </p>
+            <p>
+                <input type="radio"
+                    name="favFood"
+                    id="veggie-lovers pizza"
+                    value="veggie-lovers pizza">
+                <label for="veggie-lovers pizza">Veggie-Lovers Pizza</label>
+            </p>
+            <p>
+                <input type="radio"
+                    name="favFood"
+                    id="supreme pizza"
+                    value="supreme pizza">
+                <label for="supreme pizza">Supreme Pizza</label>
+            </p>
+            <p>
+                <input type="radio"
+                    name="favFood"
+                    id="other">
+                <label for="other">Other:</label>
+                <input type="text"
+                    placeholder="you must be crazy if pizza isn't your favorite food..."
+                    style="width: 500px;">
+            </p>
+        </form>
+    </div>
+
+    <hr>
+
+    <div id="bestestFood">
+        <h2>Here is the true, bestest food of all:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hl5dRW4E9hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
